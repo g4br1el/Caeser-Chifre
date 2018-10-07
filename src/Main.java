@@ -10,6 +10,8 @@ public class Main {
         System.out.println("characters shift: ");
         int move = new java.util.Scanner(System.in).nextInt();
 
+        move = move % 26;
+
         System.out.printf("Plaintext: %s \n", Plaintext);
 
         // normal text to uppercase
